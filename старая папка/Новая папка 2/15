@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+int main() {
+    float array[15];
+
+    // Инициализация генератора случайных чисел
+    srand(time(NULL));
+
+    printf("Массив из 15 случайных вещественных чисел в диапазоне от 22 до 23: ");
+    for (int i = 0; i < 15; i++) {
+        array[i] = 22 + ((float)rand() / RAND_MAX) * (23 - 22); // Генерация случайного вещественного числа в диапазоне от 22 до 23
+        printf("%f ", array[i]);
+    }
+
+    return 0;
+}

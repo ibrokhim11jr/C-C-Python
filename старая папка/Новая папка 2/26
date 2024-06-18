@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    char word[100];
+    
+    printf("Введите слово: ");
+    scanf("%s", word);
+    
+    if (word[1] == word[3]) {
+        printf("Второй и четвертый символы одинаковы: %c\n", word[1]);
+    } else {
+        printf("Второй и четвертый символы разные\n");
+    }
+
+    return 0;
+}

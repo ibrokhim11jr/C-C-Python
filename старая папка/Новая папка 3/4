@@ -1,0 +1,11 @@
+import math
+
+def calculate_function_value(sine, cosh):
+    b = math.sin(sine) + math.cos(cosh)**2
+    return b
+
+sine_value = float(input("Введите значение синуса (sine): "))
+cosh_value = float(input("Введите значение косинуса (cosh): "))
+
+result = calculate_function_value(sine_value, cosh_value)
+print(f"Значение функции b = sin({sine_value}) + cos({cosh_value})^2 равно: {result}")

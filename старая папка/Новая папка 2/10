@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main() { 
+
+int a, b; 
+int sum =0;
+int count= 0;
+
+printf("Введите число a: ");
+scanf("%d", &a);
+
+printf("Введите число b (больше a): ");
+scanf("%d", &b);
+
+for (int i = a; i <= b; i++) {
+    sum += i;
+    count++;
+}
+
+float average = (float)sum / count;
+
+printf("Среднее арифметическое: %.2f\n", average);
+
+return 0;
+}

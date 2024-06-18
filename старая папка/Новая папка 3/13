@@ -1,0 +1,9 @@
+import random
+
+array = []
+
+print("Массив из 15 случайных чисел:", end=" ")
+for _ in range(15):
+    num = random.randint(1, 100)  # Генерация случайных чисел от 1 до 100
+    array.append(num)
+    print(num, end=" ")

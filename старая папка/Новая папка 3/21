@@ -1,0 +1,11 @@
+array = [15, 25, 97, 100, 123, 45, 876, 33, 200, 10]
+
+print("Двузначные элементы:", end=" ")
+for num in array:
+    if num >= 10 and num <= 99:
+        print(num, end=" ")
+
+print("\nТрехзначные элементы:", end=" ")
+for num in array:
+    if num >= 100 and num <= 999:
+        print(num, end=" ")

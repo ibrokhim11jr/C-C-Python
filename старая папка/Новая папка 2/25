@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    char word[100];
+    int k;
+    
+    printf("Введите слово: ");
+    scanf("%s", word);
+    
+    printf("Введите номер символа k: ");
+    scanf("%d", &k);
+    
+    printf("Символ на позиции %d: %c\n", k, word[k-1]);
+
+    return 0;
+}

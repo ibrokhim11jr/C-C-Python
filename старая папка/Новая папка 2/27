@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    char word[100];
+    
+    printf("Введите слово: ");
+    scanf("%s", word);
+    
+    if (word[0] == word[strlen(word)-1]) {
+        printf("Первый и последний символы одинаковы: %c\n", word[0]);
+    } else {
+        printf("Первый и последний символы разные\n");
+    }
+
+    return 0;
+}

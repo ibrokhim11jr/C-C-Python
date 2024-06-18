@@ -1,0 +1,11 @@
+array = [5, 8, 20, 31, 40, 50, 62, 73, 89, 100]
+
+print("Четные элементы:", end=" ")
+for num in array:
+    if num % 2 == 0:
+        print(num, end=" ")
+
+print("\nЭлементы, оканчивающиеся на 0:", end=" ")
+for num in array:
+    if num % 10 == 0:
+        print(num, end=" ")

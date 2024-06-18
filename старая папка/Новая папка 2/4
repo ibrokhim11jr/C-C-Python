@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    double theta, b;
+
+    printf("Введите значение угла theta: ");
+    scanf("%lf", &theta);
+
+    b = sin(theta) + pow(cos(theta), 2);
+
+    printf("Значение функции b = sin(%.2f) + cos^2(%.2f) равно %.2f\n", theta, theta, b);
+
+    return 0;
+}

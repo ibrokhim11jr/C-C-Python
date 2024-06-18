@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+    int array[10] = {5, -10, 25, 80, -30, 50, 110, 0, -20, 100};
+
+    printf("Неотрицательные элементы: ");
+    for (int i = 0; i < 10; i++) {
+        if (array[i] >= 0) {
+            printf("%d ", array[i]);
+        }
+    }
+
+    printf("\nЭлементы, не превышающие 100: ");
+    for (int i = 0; i < 10; i++) {
+        if (array[i] <= 100) {
+            printf("%d ", array[i]);
+        }
+    }
+
+    return 0;
+}

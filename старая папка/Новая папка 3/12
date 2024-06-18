@@ -1,0 +1,8 @@
+array = []
+
+print("Введите 10 значений для массива:")
+for _ in range(10):
+    value = int(input())
+    array.append(value)
+
+print("Введенный массив из 10 элементов:", array)

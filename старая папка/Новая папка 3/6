@@ -1,0 +1,12 @@
+import math
+
+def calculate_y(x):
+    if x > 0:
+        y = math.sin(x)**2
+    else:
+        y = 1 + 2*(math.sin(x))**2
+    return y
+
+x = float(input("Введите значение x: "))
+result = calculate_y(x)
+print(f"Значение функции при x={x} равно {result}")

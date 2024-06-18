@@ -1,0 +1,11 @@
+array = [5, -10, 25, 80, -30, 50, 110, 0, -20, 100]
+
+print("Неотрицательные элементы:", end=" ")
+for num in array:
+    if num >= 0:
+        print(num, end=" ")
+
+print("\nЭлементы, не превышающие 100:", end=" ")
+for num in array:
+    if num <= 100:
+        print(num, end=" ")

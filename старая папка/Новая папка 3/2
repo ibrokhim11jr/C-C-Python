@@ -1,0 +1,11 @@
+import  math
+
+def calculate_q(x, y):
+    q = 7.25 * math.sin(x) - abs(y)
+    return q
+
+x = float(input("Введите значение x: "))
+y = float(input("Введите значение y: "))
+
+result = calculate_q(x, y)
+print("Значение функции q равно:", result)

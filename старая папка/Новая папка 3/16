@@ -1,0 +1,9 @@
+import random
+
+array = []
+
+print("Массив из 15 случайных вещественных чисел в диапазоне от 0 до 10:", end=" ")
+for _ in range(15):
+    num = random.uniform(0, 10)  # Генерация случайного вещественного числа в диапазоне от 0 до 10
+    array.append(num)
+    print(num, end=" ")

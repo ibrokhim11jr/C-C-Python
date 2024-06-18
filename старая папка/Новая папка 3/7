@@ -1,0 +1,13 @@
+lower_limit = 1
+upper_limit = 750
+
+# Вычисляем сумму всех целых чисел от lower_limit до upper_limit
+total_sum = sum(range(lower_limit, upper_limit + 1))
+
+# Вычисляем количество всех целых чисел от lower_limit до upper_limit
+count = upper_limit - lower_limit + 1
+
+# Вычисляем среднее арифметическое
+average = total_sum / count
+
+print(f"Среднее арифметическое всех целых чисел от {lower_limit} до {upper_limit} равно {average}")

@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    double x, y;
+    printf("Enter x value: ");
+    scanf("%lf", &x);
+
+    if (x > 0) {
+        y = pow(sin(x), 2);
+    } else {
+        y = 1 + 2 * pow(sin(x), 2);
+    }
+
+    printf("y = %.2f\n", y);
+
+    return 0;
+}

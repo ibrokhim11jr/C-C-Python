@@ -1,0 +1,11 @@
+a = int(input("Введите число a: "))
+total = 0
+count = 0
+
+for i in range(a, 201):
+    total += i
+    count += 1
+
+average = total / count
+
+print(f"Среднее арифметическое: {average:.2f}")
